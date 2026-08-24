@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="CondominioSaaSReact.API/CondominioSaaSReact.API.csproj" />
+  <Project Path="CondominioSaaSReact.Application.Tests/CondominioSaaSReact.Application.Tests.csproj" Id="ef2c938e-709c-4bb4-a190-72cf4ce39e14" />
+  <Project Path="CondominioSaaSReact.Application/CondominioSaaSReact.Application.csproj" Id="cdcd0242-34c4-4b6f-a575-b01d49dfcc0d" />
+  <Project Path="CondominioSaaSReact.Configurations/CondominioSaaSReact.Configurations.csproj" Id="2f8ee9e9-6742-444c-8d3c-6433cde3ad38" />
+  <Project Path="CondominioSaaSReact.Domain.Tests/CondominioSaaSReact.Domain.Tests.csproj" Id="4ef089dc-dc4d-4f51-9b14-2c9ade1a9876" />
+  <Project Path="CondominioSaaSReact.Domain/CondominioSaaSReact.Domain.csproj" Id="29632414-689a-44ea-a6f0-8e26510a539f" />
+  <Project Path="CondominioSaaSReact.Infrastructure/CondominioSaaSReact.Infrastructure.csproj" Id="323da980-4155-499c-9840-91133bdc0ae0" />
+  <Project Path="CondominioSaaSReact.Integration.Tests/CondominioSaaSReact.Integration.Tests.csproj" Id="1059b97e-1708-4859-986b-78e1c8a53425" />
+  <Project Path="CondominioSaaSReact.Worker/CondominioSaaSReact.Worker.csproj" Id="0deaa628-9a80-47bd-815b-22160d023128" />
+</Solution>

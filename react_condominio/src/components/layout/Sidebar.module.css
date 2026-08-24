@@ -1,0 +1,38 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #282c34;
+  padding-top: 60px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 10px 0px 15px;
+}
+
+.navLink {
+  width: 210px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 5px;
+}
+
+.navLink:hover {
+  background-color: #40464d;
+  transform: translateX(5px);
+}

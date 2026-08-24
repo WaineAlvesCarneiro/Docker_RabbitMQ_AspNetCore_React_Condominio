@@ -1,0 +1,15 @@
+.filterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableFilters {
+  width: 92%;
+  font-weight: 200px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 10px;
+}

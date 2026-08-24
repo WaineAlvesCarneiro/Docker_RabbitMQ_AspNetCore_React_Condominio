@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<ContainerDevelopmentMode>Regular</ContainerDevelopmentMode>
+		<EnableDockerSupport>false</EnableDockerSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CondominioSaaSReact.Configurations\CondominioSaaSReact.Configurations.csproj" />
+		<ProjectReference Include="..\CondominioSaaSReact.Domain\CondominioSaaSReact.Domain.csproj" />
+		<ProjectReference Include="..\CondominioSaaSReact.Infrastructure\CondominioSaaSReact.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>

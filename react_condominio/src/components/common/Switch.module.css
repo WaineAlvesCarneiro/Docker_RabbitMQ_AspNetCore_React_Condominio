@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.label {
+  color: #495057;
+  font-weight: bold;
+}
+
+.hiddenCheckbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.switchWrapper {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.switch {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 28px;
+  transition: background-color 0.4s;
+}
+
+.switch:before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.4s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hiddenCheckbox:checked + .switch {
+  background-color: #007bff;
+}
+
+.hiddenCheckbox:checked + .switch:before {
+  transform: translateX(20px);
+}
+
+.switchWrapper input:disabled + .switch {
+    cursor: not-allowed;
+    background-color: #ccc;
+    opacity: 0.7;
+}
+
+.switchWrapper input:checked:disabled + .switch {
+    background-color: #a0b1c5;
+}
+
+.container:has(input:disabled) .label {
+    color: #999;
+}

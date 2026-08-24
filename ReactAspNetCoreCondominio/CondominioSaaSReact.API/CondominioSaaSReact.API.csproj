@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<ContainerDevelopmentMode>Regular</ContainerDevelopmentMode>
+		<EnableDockerSupport>false</EnableDockerSupport>
+		<UserSecretsId>25a747b5-6aee-4bb1-b5f1-e52cff4d7447</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+		<PackageReference Include="MediatR" Version="14.1.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.27">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CondominioSaaSReact.Application\CondominioSaaSReact.Application.csproj" />
+		<ProjectReference Include="..\CondominioSaaSReact.Configurations\CondominioSaaSReact.Configurations.csproj" />
+		<ProjectReference Include="..\CondominioSaaSReact.Infrastructure\CondominioSaaSReact.Infrastructure.csproj" />
+	</ItemGroup>
+
+</Project>

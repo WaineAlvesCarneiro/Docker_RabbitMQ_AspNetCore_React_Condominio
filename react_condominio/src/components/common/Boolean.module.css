@@ -1,0 +1,16 @@
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.label {
+  color: #495057;
+  font-weight: bold;
+  cursor: pointer;
+}
